@@ -29,7 +29,8 @@
 
 .bmi h5 {
     text-align: center;
-    padding: 0px 30px 40px 30px;
+    font-size: 16px;
+    padding: 0px 30px 30px 30px;
 }
 
 .wrapper {
@@ -53,15 +54,82 @@
 .input-name input {
     outline: none;
     border: none;
-    border-bottom: 1px solid #4f7df9;
+    border-bottom: 1px solid #3a6efd;
     width: 50%;
     text-align: center;
-    font-size: 18px;
-    margin-bottom: 15px;
+    font-size: 16px;
+    margin: 10px 0px 15px 0px;
 }
 
 .calculation {
     display: flex;
     justify-content: space-between;
+    margin: 20px 0px 20px 0px;
+}
+
+.inputWH {
+    background: #fff;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.inputWH label {
+    display: block;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 15px 0px 10px 0px;
+}
+
+.inputWH input {
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #3a6efd;
+    margin: 10px 0px 15px 0px;
+    font-size: 16px;
+    width: 50%;
+    text-align: center;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+button.calc {
+    cursor: pointer;
+    background: #3a6efd;
+    width: 100%;
+    color: #fff;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    margin-top: 10px;
+    padding: 10px 0px 10px 0px;
+    font-size: medium;
+    font-weight: 600;
+}
+
+button.calc:hover {
+    background: #001a63;
+}
+
+.result {
+    padding-bottom: 10px;
+}
+
+.result p {
+    padding: 15px 0px 10px 0px;
+    font-weight: 600;
+}
+
+#result {
+    color: #3a6efd;
+    font-size: 30px;
+    font-weight: 700;
+    background-color: #fffefe;
+    display: inline-block;
+    padding: 5px 20px 5px 20px;
+    border-radius: 17px;
 }
 

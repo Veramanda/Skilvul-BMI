@@ -23,17 +23,29 @@
             </div>
 
             <div class="calculation">
-                <div class="input-weight">
+                <div class="inputWH">
                     <label for="weight">Weight (Kg)</label>
                     <input type="number" id="weight" required>
                 </div>
 
-                <div class="input-height">
+                <div class="inputWH">
                     <label for="height"> Height (cm)</label>
                     <input type="number" id="height" required>
                 </div>
             </div>
+
+            <button class="calc" id="button" onclick="">
+                Calculate BMI
+            </button>
+
+            <div class="result">
+                <p>Your BMI is</p>
+                <div id="result">00</div>
+                <p class="comment">Underweight</p>
+            </div>
         </div>
     </div>
+
+    
 </body>
 </html>
