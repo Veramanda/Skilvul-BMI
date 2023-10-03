@@ -1,0 +1,67 @@
+* {
+    text-decoration: none;
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.title {
+    text-align: center;
+    font-size: 35px;
+    font-weight: 800;
+    padding: 30px 0px 30px 0px;
+}
+
+.bmi {
+    background: #ecedee;
+    width: 500px;
+    margin: auto;
+    position: relative;
+    border-radius: 20px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.bmi h2 {
+    text-align: center;
+    padding: 20px 0px 15px 0px;
+}
+
+.bmi h5 {
+    text-align: center;
+    padding: 0px 30px 40px 30px;
+}
+
+.wrapper {
+    text-align: center;
+    padding: 10px 50px 10px 50px;
+}
+
+.input-name {
+    background: #fff;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.input-name label {
+    display: block;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 15px 0px 10px 0px;
+}
+
+.input-name input {
+    outline: none;
+    border: none;
+    border-bottom: 1px solid #4f7df9;
+    width: 50%;
+    text-align: center;
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+
+.calculation {
+    display: flex;
+    justify-content: space-between;
+}
+
