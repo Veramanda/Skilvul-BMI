@@ -5,6 +5,10 @@
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
+body {
+    background: #ebebeb;
+}
+
 .title {
     text-align: center;
     font-size: 35px;
@@ -13,7 +17,8 @@
 }
 
 .bmi {
-    background: #ecedee;
+    box-shadow: 2px 2px 20px 5px #001a63;
+    background: #d3eaff;
     width: 500px;
     margin: auto;
     position: relative;
@@ -29,36 +34,13 @@
 
 .bmi h5 {
     text-align: center;
-    font-size: 16px;
+    font-size: 18px;
     padding: 0px 30px 30px 30px;
 }
 
 .wrapper {
     text-align: center;
     padding: 10px 50px 10px 50px;
-}
-
-.input-name {
-    background: #fff;
-    border-radius: 10px;
-    text-align: center;
-}
-
-.input-name label {
-    display: block;
-    font-size: 18px;
-    font-weight: 600;
-    padding: 15px 0px 10px 0px;
-}
-
-.input-name input {
-    outline: none;
-    border: none;
-    border-bottom: 1px solid #3a6efd;
-    width: 50%;
-    text-align: center;
-    font-size: 16px;
-    margin: 10px 0px 15px 0px;
 }
 
 .calculation {
@@ -68,7 +50,7 @@
 }
 
 .inputWH {
-    background: #fff;
+    background: #f7f7f7;
     border-radius: 10px;
     text-align: center;
 }
@@ -81,9 +63,10 @@
 }
 
 .inputWH input {
+    background: #f7f7f7;
     border: none;
     outline: none;
-    border-bottom: 1px solid #3a6efd;
+    border-bottom: 1px solid #0084ff;
     margin: 10px 0px 15px 0px;
     font-size: 16px;
     width: 50%;
@@ -98,7 +81,7 @@ input::-webkit-inner-spin-button {
 
 button.calc {
     cursor: pointer;
-    background: #3a6efd;
+    background: #0084ff;
     width: 100%;
     color: #fff;
     outline: none;
@@ -114,22 +97,10 @@ button.calc:hover {
     background: #001a63;
 }
 
-.result {
-    padding-bottom: 10px;
-}
-
-.result p {
-    padding: 15px 0px 10px 0px;
-    font-weight: 600;
-}
-
 #result {
-    color: #3a6efd;
-    font-size: 30px;
-    font-weight: 700;
-    background-color: #fffefe;
+    font-size: 20px;
+    font-weight: 900;
     display: inline-block;
-    padding: 5px 20px 5px 20px;
+    padding: 15px 20px 10px 20px;
     border-radius: 17px;
 }
-
